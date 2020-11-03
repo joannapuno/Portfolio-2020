@@ -1,0 +1,17 @@
+.UnderConstruction .Content {
+    display: grid;
+    grid-gap: 20px;
+    width: 50%;
+    margin: 50px auto;
+    align-items: center;
+    justify-items: center;
+}
+
+.Message {
+    color: #FFF;
+    font-size: 20px;
+}
+
+.ImageContainer {
+    width: 100px;
+}

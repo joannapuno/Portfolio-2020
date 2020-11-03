@@ -8,6 +8,7 @@ import About from './containers/About/About';
 import AboutWork from './containers/AboutWork/AboutWork';
 import Work from './containers/Work/Work';
 import Contact from './containers/Contact/Contact';
+import UnderConstruction from './containers/UnderConstruction/UnderConstruction';
 
 
 
@@ -15,13 +16,14 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Layout>
+        <UnderConstruction />
+        {/* <Layout>
           <Hero />
           <About />
           <AboutWork />
           <Work />
           <Contact />
-        </Layout>
+        </Layout> */}
       </div>
     );
   }
